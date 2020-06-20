@@ -76,12 +76,16 @@ nav ul li a {
   color: #fff;
   padding: 10px 15px;
   text-decoration: none;
+  transition: 1s;
 }
 nav ul li a.active{
   background: #fff;
   color:#262626;
 }
+nav ul li a:hover{
+  border-bottom: 2px solid white;
 
+}
 section{
   padding: 100px;
   box-sizing: border-box;
